@@ -1,0 +1,19 @@
+html,
+body {
+  background-color: #121212;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  img {
+    width: 250px !important;
+  }
+}

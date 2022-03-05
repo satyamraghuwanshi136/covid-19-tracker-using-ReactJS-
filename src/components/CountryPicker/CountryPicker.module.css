@@ -1,0 +1,21 @@
+.formControl {
+  width: 30%;
+  margin-bottom: 30px !important;
+}
+
+.selectCountry {
+  font-family: 'roboto';
+  color: rgb(216, 214, 214);
+}
+
+.select {
+  background-color: rgba(145, 87, 216, 0.808) !important;
+  color: rgb(0, 0, 0) !important;
+  padding: 0 10px !important;
+}
+
+@media (max-width: 770px) {
+  .formControl {
+    width: 70%;
+  }
+}

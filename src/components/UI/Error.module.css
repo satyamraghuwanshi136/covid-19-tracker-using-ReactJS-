@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert {
+  width: 60% !important;
+  padding: 20px 30px !important;
+}
